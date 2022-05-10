@@ -2,14 +2,14 @@
 <h3 align="center">PriceBot</h3>
 
   <p align="center">
-    PriceBot is bot written with Python 3, BeautifulSoup, Telegram API.
+    PriceBot is a bot that will help you buy the product at the best price.
     <br />
     <a href="https://github.com/Pawikoski/priceBot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/Pawikoski/priceBot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/Pawikoski/priceBot/issues">Request Feature</a>
   </p>
 </div>
 
@@ -46,61 +46,47 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This bot is scraping many polish stores with electronics.<br/>
+User sets the price that interests him and the bot will notify about best price on Telegram channel.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+<p align="right"><a href="#top">back to top</a></p>
 
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Python](https://python.org/)
+* [Telegram API](https://core.telegram.org/bots/api/)
+* [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/)
+* [Requests](https://docs.python-requests.org/en/latest/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
+<p align="right"><a href="#top">back to top</a></p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To run this bot you will need Python 3.7+, Telegram API Key and User ID and Telegram Channel
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Install Python 3 from https://www.python.org/downloads/
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
+1. Clone the repo
+    ```sh
+   git clone https://github.com/Pawikoski/PriceBot.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
+2. Set up virtual enviroment
+3. Install required packages
+    ```sh
+   pip install -r requirements.txt
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+4. Create a bot on telegram with [@BotFather](https://t.me/BotFather)
+5. Enter your API Key from @BotFather in telegram_api_key.txt
+6. Retrieve your Telegram user id from [@UserInfoBot](https://t.me/userinfobot)
+7. Paste user id in telegram_user_id.txt
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+<p align="right"><a href="#top">back to top</a></p>
 
 
 <!-- USAGE EXAMPLES -->
@@ -122,7 +108,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Pawikoski/PriceBot/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -160,7 +146,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/Pawikoski/PriceBot](https://github.com/Pawikoski/PriceBot)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -179,18 +165,17 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Pawikoski/PriceBot.svg?style=for-the-badge
+[contributors-url]: https://github.com/Pawikoski/PriceBot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Pawikoski/PriceBot.svg?style=for-the-badge
+[forks-url]: https://github.com/Pawikoski/PriceBot/network/members
+[stars-shield]: https://img.shields.io/github/stars/Pawikoski/PriceBot.svg?style=for-the-badge
+[stars-url]: https://github.com/Pawikoski/PriceBot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Pawikoski/PriceBot.svg?style=for-the-badge
+[issues-url]: https://github.com/Pawikoski/PriceBot/issues
+[license-shield]: https://img.shields.io/github/license/Pawikoski/PriceBot.svg?style=for-the-badge
+[license-url]: https://github.com/Pawikoski/PriceBot/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
 
-https://t.me/userinfobot

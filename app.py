@@ -1,9 +1,11 @@
 import telegram
 
+
 with open("telegram_api_key.txt", "r") as t:
     api_key = t.readline()
 
-user_id = '958907461'
+with open("telegram_user_id.txt", "r") as uid:
+    user_id = uid.readline()
 
 
 def send_message(text):
