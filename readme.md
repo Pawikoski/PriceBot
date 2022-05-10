@@ -82,9 +82,9 @@ Install Python 3 from https://www.python.org/downloads/
    pip install -r requirements.txt
    ```
 4. Create a bot on telegram with [@BotFather](https://t.me/BotFather)
-5. Enter your API Key from @BotFather in telegram_api_key.txt
+5. Enter your API Key from @BotFather in `telegram_api_key.txt`
 6. Retrieve your Telegram user id from [@UserInfoBot](https://t.me/userinfobot)
-7. Paste user id in telegram_user_id.txt
+7. Paste user id in `telegram_user_id.txt`
 
 <p align="right"><a href="#top">back to top</a></p>
 
@@ -92,25 +92,17 @@ Install Python 3 from https://www.python.org/downloads/
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To run bot you just need to run the python script ```main.py``` with few arguments
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Arguments:
+* -lowest_price_alert_delay = Delay in minutes between telegram alert with the lowest found price.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+Example:
+```shell
+python main.py -lowest_price_alert_delay 60
+```
+Script above will send the lowest price alert every 60 minutes
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/Pawikoski/PriceBot/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -147,17 +139,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
 Project Link: [https://github.com/Pawikoski/PriceBot](https://github.com/Pawikoski/PriceBot)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
